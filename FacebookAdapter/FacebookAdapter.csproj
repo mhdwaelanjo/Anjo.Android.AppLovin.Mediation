@@ -1,8 +1,51 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Anjo.Android.AppLovin.Mediation.FacebookAdapter</PackageId>
+		<PackageVersion>6.16.0.2</PackageVersion>
+		<AssemblyVersion>6.16.0.2</AssemblyVersion>
+		<FileVersion>6.16.0.2</FileVersion>
+		<Version>6.16.0.2</Version>
+		<Title>Anjo Android Meta Audience Network (previously Facebook) Mediation Adapter for AppLovin MAX mediation SDK</Title>
+		<Authors>Wael Anjo</Authors>
+		<Owners>Wael Anjo</Owners>
+		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.AppLovin.Mediation.FacebookAdapter</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library 'com.applovin.mediation:facebook-adapter'</Description>
+		<PackageReleaseNotes>Meta Audience Network (previously Facebook) Mediation Adapter for AppLovin MAX mediation SDK v6.16.0.2</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<PackageTags>Xamarin.Android, NET MAUI, AppLovin, Mediation, Meta Audience Network, Facebook, FacebookAdapter, Banner, Interstitial, Rewarded Interstitial</PackageTags>
+		<Summary>Meta Audience Network (previously Facebook) Mediation Adapter for AppLovin MAX mediation.</Summary>
+		<!-- Include symbol files (*.pdb) in the built .nupkg -->
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+  <ItemGroup>
+    <None Remove="Jars\facebook-adapter-6.16.0.2.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Anjo.Android.Facebook.AudienceNetwork" Version="6.16.0" />
+  </ItemGroup>
 </Project>

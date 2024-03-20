@@ -1,1 +1,0 @@
-# Anjo.Android.AppLovin.Mediation

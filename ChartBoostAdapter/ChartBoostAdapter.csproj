@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -6,21 +6,21 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
-		<PackageId>Anjo.Android.AppLovin.Mediation.GoogleAdMobAdapter</PackageId>
-		<PackageVersion>23.0.0.0</PackageVersion>
-		<AssemblyVersion>23.0.0.0</AssemblyVersion>
-		<FileVersion>23.0.0.0</FileVersion>
-		<Version>23.0.0.0</Version>
-		<Title>Anjo Android Google AdMob adapter for AppLovin MAX mediation SDK</Title>
+		<PackageId>Anjo.Android.AppLovin.Mediation.ChartBoostAdapter</PackageId>
+		<PackageVersion>9.7.0.0</PackageVersion>
+		<AssemblyVersion>9.7.0.0</AssemblyVersion>
+		<FileVersion>9.7.0.0</FileVersion>
+		<Version>9.7.0.0</Version>
+		<Title>Anjo Android Chartboost adapter for AppLovin MAX mediation SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
-		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.AppLovin.Mediation.GoogleAdMobAdapter</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.AppLovin.Mediation.ChartBoostAdapter</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<Description>.NET for Android (formerly Xamarin.Android) Binding Library 'com.applovin.mediation:google-adapter'</Description>
-		<PackageReleaseNotes>Google AdMob adapter for AppLovin MAX mediation SDK v23.0.0.0</PackageReleaseNotes>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library 'com.applovin.mediation:chartboost-adapter'</Description>
+		<PackageReleaseNotes>Chartboost adapter for AppLovin MAX mediation SDK v9.7.0.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, NET MAUI, AppLovin, Mediation, AppLovinMediation, GoogleAdMob, GoogleAdMobAdapter, Banner, Interstitial, Rewarded Interstitial</PackageTags>
-		<Summary>Google AdMob adapter for AppLovin MAX mediation.</Summary>
+		<PackageTags>Xamarin.Android, NET MAUI, AppLovin, Mediation, AppLovinMediation, ChartBoost, ChartBoostAdapter, Banner, Interstitial, Rewarded Interstitial</PackageTags>
+		<Summary>Chartboost adapter for AppLovin MAX mediation.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -43,9 +43,6 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		 <None Remove="Jars\google-adapter-23.0.0.0.aar" />
+	  <PackageReference Include="Anjo.Android.ChartBoost" Version="9.6.1" />
 	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="Anjo.Android.GoogleServices.Ads" Version="23.0.0" />
-	</ItemGroup>
-</Project> 
+</Project>
