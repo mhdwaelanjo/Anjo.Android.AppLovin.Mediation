@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAdMobAdapter", "GoogleAdMobAdapter\GoogleAdMobAdapter.csproj", "{02D03AB6-FF4A-4681-82B9-A554D2B98809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookAdapter", "FacebookAdapter\FacebookAdapter.csproj", "{9748C7BC-668F-476E-86F5-FE631C4F1B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronSourceAdapter", "IronSourceAdapter\IronSourceAdapter.csproj", "{13C8BC85-48D2-4891-84A4-4BC8BFB50CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdColonyAdapter", "AdColonyAdapter\AdColonyAdapter.csproj", "{8CDD36A6-FA3F-4242-B933-71984ABB5B66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D03AB6-FF4A-4681-82B9-A554D2B98809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D03AB6-FF4A-4681-82B9-A554D2B98809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D03AB6-FF4A-4681-82B9-A554D2B98809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D03AB6-FF4A-4681-82B9-A554D2B98809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9748C7BC-668F-476E-86F5-FE631C4F1B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9748C7BC-668F-476E-86F5-FE631C4F1B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9748C7BC-668F-476E-86F5-FE631C4F1B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9748C7BC-668F-476E-86F5-FE631C4F1B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C8BC85-48D2-4891-84A4-4BC8BFB50CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C8BC85-48D2-4891-84A4-4BC8BFB50CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C8BC85-48D2-4891-84A4-4BC8BFB50CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C8BC85-48D2-4891-84A4-4BC8BFB50CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDD36A6-FA3F-4242-B933-71984ABB5B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDD36A6-FA3F-4242-B933-71984ABB5B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDD36A6-FA3F-4242-B933-71984ABB5B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDD36A6-FA3F-4242-B933-71984ABB5B66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9A6136-ED8A-4332-96B8-9D6427E550EE}
+	EndGlobalSection
+EndGlobal
